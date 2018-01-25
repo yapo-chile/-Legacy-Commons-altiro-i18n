@@ -1,0 +1,40 @@
+{
+  "name": "altiro-i18n",
+  "description": "International support language for Yapo Site",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "i18n/index.js",
+  "module": "i18n/index.js",
+  "unpkg": "i18n/index.js",
+  "jsdelivr": "i18n/index.js",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "i18n",
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Claudio Donoso <claudio.donoso@schibsted.cl>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mistermoz/yapo-i18n"
+  },
+  "bugs": {
+    "url": "https://github.com/Mistermoz/yapo-i18n/issues"
+  },
+  "homepage": "https://github.com/Mistermoz/yapo-i18n#readme",
+  "keywords": [
+    "i18n"
+  ],
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.10.0"
+  }
+}
