@@ -1,40 +1,47 @@
 {
   "name": "altiro-i18n",
-  "description": "International support language for Yapo Site",
-  "version": "1.0.0",
-  "license": "MIT",
-  "main": "i18n/index.js",
-  "module": "i18n/index.js",
-  "unpkg": "i18n/index.js",
-  "jsdelivr": "i18n/index.js",
-  "directories": {
-    "dist": "dist"
-  },
-  "files": [
-    "i18n",
-    "dist"
-  ],
+  "version": "1.0.2",
+  "description": "Produce universal library with webpack and es6",
+  "main": "lib/library.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --env dev && webpack --env build && npm run test",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "mocha --require babel-core/register --colors ./test/*.spec.js",
+    "test:watch": "mocha --require babel-core/register --colors -w ./test/*.spec.js"
   },
-  "author": "Claudio Donoso <claudio.donoso@schibsted.cl>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mistermoz/yapo-i18n"
+    "url": "https://github.com/krasimir/webpack-library-starter.git"
   },
-  "bugs": {
-    "url": "https://github.com/Mistermoz/yapo-i18n/issues"
-  },
-  "homepage": "https://github.com/Mistermoz/yapo-i18n#readme",
   "keywords": [
-    "i18n"
+    "webpack",
+    "es6",
+    "starter",
+    "library",
+    "universal",
+    "umd",
+    "commonjs"
   ],
-  "engines": {
-    "node": ">=8.9.0"
+  "author": "Krasimir Tsonev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krasimir/webpack-library-starter/issues"
   },
+  "homepage": "https://github.com/krasimir/webpack-library-starter",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
     "babel-loader": "^7.1.2",
-    "webpack": "^3.10.0"
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.1",
+    "webpack": "^3.10.0",
+    "yargs": "^10.0.3"
   }
 }
