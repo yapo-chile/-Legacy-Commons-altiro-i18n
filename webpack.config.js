@@ -1,27 +1,51 @@
-const path = require('path');
+/* global __dirname, require, module*/
+
 const webpack = require('webpack');
 const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+const path = require('path');
+const env = require('yargs').argv.env; // use --env with webpack 2
+const pkg = require('./package.json');
 
-module.exports = {
-  entry: './i18n/index.js',
+let libraryName = pkg.name;
+
+let plugins = [], outputFile;
+
+if (env === 'build') {
+  plugins.push(new UglifyJsPlugin({ minimize: true }));
+  outputFile = libraryName + '.min.js';
+} else {
+  outputFile = libraryName + '.js';
+}
+
+const config = {
+  entry: __dirname + '/src/index.js',
+  devtool: 'source-map',
   output: {
-    filename: 'altiro-i18n.js',
-    path: path.resolve(__dirname, 'dist')
+    path: __dirname + '/lib',
+    filename: outputFile,
+    library: libraryName,
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
   },
   module: {
     rules: [
       {
         test: /(\.jsx|\.js)$/,
         loader: 'babel-loader',
-        exclude: /(node_modules|bower_components)/
-      }
-    ]
+        exclude: /(node_modules|bower_components)/,
+      },
+      {
+        test: /(\.jsx|\.js)$/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/,
+      },
+    ],
   },
   resolve: {
-    modules: [path.resolve('./node_modules'), path.resolve('./i18n')],
-    extensions: ['.json', '.js']
+    modules: [path.resolve('./node_modules'), path.resolve('./src')],
+    extensions: ['.json', '.js'],
   },
-  plugins: [
-    new UglifyJsPlugin({ minimize: true })
-  ]
+  plugins: plugins,
 };
+
+module.exports = config;
