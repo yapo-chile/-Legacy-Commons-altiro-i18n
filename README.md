@@ -14,7 +14,7 @@ Import in the repo
 import Vue from 'vue';
 import Vuex from 'vuex';
 import vuexI18n from 'vuex-i18n';
-import i18n from 'vuex-i18n';
+import i18n from 'altiro-i18n';
 
 Vue.use(Vuex);
 
