@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-export const i18nEs = {
+export const es = {
   BANNER_SMS: {
     DEEPLINKS: {
       ANDROID: 'https://yapo.app.link/smsinfobip',

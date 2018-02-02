@@ -1,3 +1,3 @@
-import { i18nEs } from './es';
+import { es } from './es';
 
-export default { i18nEs };
+export default { es };
