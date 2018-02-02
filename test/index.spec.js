@@ -11,7 +11,7 @@ let lib;
 
 describe('Given an instance of my i18n library', () => {
   before(() => {
-    lib = altiroI18N.i18nEs;
+    lib = altiroI18N.es;
   });
   describe('when I need the site name', () => {
     it('should return the name', () => {
