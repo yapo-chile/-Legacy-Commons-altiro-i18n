@@ -32,6 +32,7 @@ export const es = {
   BUILDERS: {
     PUBLISHED_AT: 'Publicado',
     SINCE: 'Desde',
+    TO:'hasta',
     PROJECT: 'Proyecto',
     INFORMATION: 'Información',
     RENT: 'Arriendo',
