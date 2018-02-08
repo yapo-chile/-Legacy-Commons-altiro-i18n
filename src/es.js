@@ -57,6 +57,7 @@ export const es = {
     CONTACT: 'Contactar',
     OUR_RULES: 'Lee nuestras reglas',
     COPYRIGHT: '2017 Yapo.cl SpA',
+    LOG_IN: 'Iniciar Sesión',
     PUBLISH: 'Publicar',
     PUBLISH_FULL: 'Publicar Aviso',
     ACCOUNT: 'Cuenta',
