@@ -84,6 +84,10 @@ export const es = {
     NO: 'No',
     SOLDOUT: 'Agotado',
     PROPERTY_CHOICE_TYPE: 'Elige un tipo de propiedad',
+    DUE_DATE: 'Entrega',
+    SURFACE: 'Superficie',
+    FLOOR: 'Piso',
+    FACING: 'Orientación',
     form: {
       NAME: 'Nombre',
       DNI: 'RUT',
