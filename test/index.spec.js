@@ -1,7 +1,7 @@
 /* global describe, it, before */
 
 import chai from 'chai';
-import altiroI18N from '../lib/altiro-i18n';
+import altiroI18N from '../lib/@Yapo/altiro-i18n';
 
 chai.expect();
 
