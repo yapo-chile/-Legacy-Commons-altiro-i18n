@@ -66,7 +66,7 @@ export const es = {
     CLOSE_SESSION: 'Cerrar Sesión',
     HOME: 'Home',
     FIND_ADS: 'Buscar Avisos',
-    FAVORITES: 'Favoritos',
+    FAVORITES: 'Mis Favoritos',
     HELP: 'Ayuda',
     MY_ADS: 'Mis Avisos',
     STORES: 'Tiendas',
