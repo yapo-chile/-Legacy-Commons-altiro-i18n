@@ -44,7 +44,7 @@ export const es = {
     COMMUNE: 'Comuna',
     BEDROOMS: 'Dormitorios',
     APARTMENT: 'Departamento',
-    BATHROOMS: ['Baño', 'Baños'],
+    BATHROOMS: 'Baños',
     SERVICES: 'Servicios',
     PROPERTIES_TYPES: 'Tipos de propiedades',
     BEDROOM: 'Dormitorios',
