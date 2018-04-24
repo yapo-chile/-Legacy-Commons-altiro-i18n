@@ -23,6 +23,7 @@ export const es = {
   ADDED_TO_FAVORITES: 'Agregado a favoritos:',
   DOWNLOAD_APP_MOVIL_YAPO_HERE: 'Descarga la App de Yapo aquí',
   SECURE_PAY: 'Pago Seguro',
+  SECURE_BUY: 'Compra Segura',
   SEND: 'Enviar',
   SENDING: 'Enviando...',
   YAPO_URL: 'Yapo.cl',
