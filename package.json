@@ -1,10 +1,10 @@
 {
   "name": "@Yapo/altiro-i18n",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "description": "i18n lang for builders",
   "main": "lib/altiro-i18n.js",
   "scripts": {
-    "build": "webpack --env dev && webpack --env build && npm run test",
+    "build": "webpack --env dev && webpack --env build && yarn test",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --require babel-core/register --colors ./test/*.spec.js",
     "test:watch": "mocha --require babel-core/register --colors -w ./test/*.spec.js"
