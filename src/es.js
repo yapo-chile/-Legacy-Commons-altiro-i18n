@@ -41,7 +41,7 @@ export const es = {
   GUARANTY_DEVOLUTION_EXPLAIN: 'Si el envío no llega o no es lo que compraste, te devolvemos el dinero y nos hacemos cargo del envío de vuelta.',
   HOW_WORK: '¿Cómo funciona?',
   MOVIL_PHONE: 'Celular',
-  Number: 'Número',
+  NUMBER: 'Número',
   PAY_AND_RECEPTION: 'Pago y recepción',
   PAY_AND_RECEPTION_EXPLAIN: 'Tu pago será retenido hasta que al recibir el producto te asegures que está en las condiciones prometidas.',
   PAYMENT_DELIVERY_ADVANTAGE: 'Ventajas de Pago y despacho',
