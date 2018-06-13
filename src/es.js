@@ -1,4 +1,6 @@
 /* eslint-disable import/prefer-default-export */
+import RECURRING_PAYMENT from './recurring-payment';
+
 export const es = {
   BANNER_SMS: {
     DEEPLINKS: {
@@ -35,6 +37,7 @@ export const es = {
   COMPLETE_NAME: 'Nombre Completo',
   COMPLETE_DATA: 'Completar Datos',
   COMMUNES: 'Comunas',
+  COMMERCIAL_DETAIL: 'Detalle comercial',
   DELIVERY_TERMS: 'Plazos de entrega',
   DELIVERY_TERMS_EXPLAIN: 'Una vez aceptada la compra y retirado el producto, la entrega se realizará dentro de 2 días hábiles.',
   DOWNLOAD_APP_MOVIL_YAPO_HERE: 'Descarga la App de Yapo aquí',
@@ -159,4 +162,5 @@ export const es = {
       APPROVED_CREDIT: 'Tienes crédito aprobado',
     },
   },
+  RECURRING_PAYMENT,
 };
