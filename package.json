@@ -1,6 +1,6 @@
 {
   "name": "@Yapo/altiro-i18n",
-  "version": "2.10.2",
+  "version": "2.11.0",
   "description": "i18n lang for builders",
   "main": "lib/altiro-i18n.js",
   "scripts": {
