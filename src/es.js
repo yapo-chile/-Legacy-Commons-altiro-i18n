@@ -1,6 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import RECURRING_PAYMENT from './recurring-payment';
 import PAYMENT_DELIVERY from './payment-delivery';
+import YAPO from './yapo';
 
 export const es = {
   BANNER_SMS: {
@@ -165,4 +166,5 @@ export const es = {
   },
   RECURRING_PAYMENT,
   PAYMENT_DELIVERY,
+  YAPO,
 };
