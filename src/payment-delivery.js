@@ -2,6 +2,7 @@ const DICTIONARY = {
   BANK_ADVICE: 'Si el problema persiste favor comunicarse con su Banco emisor.',
   CONFIRM_RECEPTION: 'Confirma la recepción del producto',
   CONFIRM_RECEPTION_DISCLAIMER: 'Si no contestas se asumirá que el producto está en buenas condiciones.',
+  CONFIRM_RECEPTION_QUESTION: '¿Recibiste conforme el producto?',
   HOW_TO_USE: `Para empezar necesitamos que completes la información relacionada al envío del producto.
   Recuerda que el precio debe haber sido acordado previamente con el comprador, para que este no reciba
   cargos de devolución.`,
