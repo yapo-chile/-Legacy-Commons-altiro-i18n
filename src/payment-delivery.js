@@ -30,6 +30,7 @@ const DICTIONARY = {
   POST_ACCEPT_BUY_TITLE: '¡Gracias por utilizar Pago y despacho!',
   POST_ACCEPT_BUY_SUBTITLE: 'Gracias por confiar en Yapo.cl para hacer un buen negocio, miles de personas ya están comprando y vendiendo.',
   POST_ACCEPT_BUY_BUTTON: 'Ver avisos',
+  COMMISION_INFO: 'comisión de servicio correspodiente a un {commission}% del valor del producto.',
 };
 
 export default DICTIONARY;
