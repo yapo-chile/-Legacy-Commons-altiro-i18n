@@ -1,5 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import RECURRING_PAYMENT from './recurring-payment';
+import PAYMENT_DELIVERY from './payment-delivery';
+import YAPO from './yapo';
 
 export const es = {
   BANNER_SMS: {
@@ -80,6 +82,7 @@ export const es = {
   SEND: 'Enviar',
   SENDING: 'Enviando...',
   SELLER: 'Vendedor',
+  SUBSCRIBE: 'Suscribir',
   HAVE_BOUGHT_YOUR_PRODUCT: '¡Han comprado tu producto!',
   SOMEONE_BOUGHT_YOUR_PRODUCT: 'pagó por tu producto',
   SUMMARY: 'Resumen de tu compra',
@@ -88,7 +91,7 @@ export const es = {
   TOTAL_PRICE: 'Precio Total',
   WHERE_IS_PRODUCT_SENT: '¿Dónde te enviamos el producto?',
   WHAT_IS_PAYMENT_DELIVERY: '¿Qué es pago y despacho?',
-  WHAT_IS_PAYMENT_DELIVERY_EXPLAIN: 'Es el nuevo servicio de pago y despacho seguro de Yapo.cl en conjunto con Lemonpay y Correos de Chile nos encargaremos de cuidar tu dinero y del envío de tu producto llevándolo donde tu nos digas. Te acompañaremos en la negociación, pago, envío y cobro.',
+  WHAT_IS_PAYMENT_DELIVERY_EXPLAIN: 'Es el nuevo servicio de pago y despacho seguro de Yapo.cl en conjunto con Lemonpay y Blue Express nos encargaremos de cuidar tu dinero y del envío de tu producto llevándolo donde tu nos digas. Te acompañaremos en la negociación, pago, envío y cobro.',
   YAPO_URL: 'Yapo.cl',
   ERRORS: {
     CONNECTION: 'Error de conexión. Intente nuevamente.',
@@ -163,4 +166,6 @@ export const es = {
     },
   },
   RECURRING_PAYMENT,
+  PAYMENT_DELIVERY,
+  YAPO,
 };
