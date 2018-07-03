@@ -54,6 +54,7 @@ export const es = {
   HOW_WORK: '¿Cómo funciona?',
   MOVIL_PHONE: 'Celular',
   NUMBER: 'Número',
+  OPTIONAL_APARTMENT: 'Depto. (Opcional)',
   PAY_AND_RECEPTION: 'Pago y recepción',
   PAY_AND_RECEPTION_EXPLAIN: 'Tu pago será retenido hasta que al recibir el producto te asegures que está en las condiciones prometidas.',
   PAYMENT_DELIVERY_ADVANTAGE: 'Ventajas de Pago y despacho',
