@@ -55,6 +55,7 @@ export const es = {
   MOVIL_PHONE: 'Celular',
   NUMBER: 'Número',
   OPTIONAL_APARTMENT: 'Depto. (Opcional)',
+  ORIGINAL_PRICE: 'Precio original',
   PAY_AND_RECEPTION: 'Pago y recepción',
   PAY_AND_RECEPTION_EXPLAIN: 'Tu pago será retenido hasta que al recibir el producto te asegures que está en las condiciones prometidas.',
   PAYMENT_DELIVERY_ADVANTAGE: 'Ventajas de Pago y despacho',
