@@ -104,6 +104,7 @@ export const es = {
     INVALID_FORMAT: 'El formato del {field} no es válido.',
     INVALID_PHONE: 'Tu número debe tener 8 dígitos.',
     INVALID_RUT: 'Escribe un rut válido.',
+    MIN_PRICE: 'El precio debe ser mayor o igual a',
     REQUIRED_FIELD: 'El {field} es requerido',
     SELECT_COMMUNE: 'Selecciona una comuna.',
     SELECT_REGION: 'Selecciona una región.',
