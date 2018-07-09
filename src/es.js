@@ -98,6 +98,7 @@ export const es = {
   ERRORS: {
     CONNECTION: 'Error de conexión. Intente nuevamente.',
     CONFIRM_FORMAT: 'Confirma que el {field} está en el formato correcto.',
+    EMPTY_ACCOUNT_NUMBER: 'Ingresa número de cuenta.',
     EMPTY_ADDRESS: 'Ingresa una dirección válida para el envío de tu producto.',
     EMPTY_NAME: '¡Ups! debes incluir tu nombre',
     INVALID_NUMBER: 'Número inválido',
@@ -107,6 +108,8 @@ export const es = {
     INVALID_RUT: 'Escribe un rut válido.',
     MIN_PRICE: 'El precio debe ser mayor o igual a',
     REQUIRED_FIELD: 'El {field} es requerido',
+    SELECT_ACCOUNT_TYPE: 'Selecciona el tipo de cuenta".',
+    SELECT_BANK: 'Selecciona banco.',
     SELECT_COMMUNE: 'Selecciona una comuna.',
     SELECT_REGION: 'Selecciona una región.',
   },
