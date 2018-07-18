@@ -37,7 +37,7 @@ export const es = {
   CANCEL: 'Cancelar',
   CONTINUE_PURCHASE: 'Continuar compra',
   COMPLETE_NAME: 'Nombre Completo',
-  COMPLETE_DATA: 'Completar Datos',
+  COMPLETE_DATA: 'Completar datos',
   COMMUNES: 'Comunas',
   COMMERCIAL_DETAIL: 'Detalle comercial',
   DELIVERY_TERMS: 'Plazos de entrega',
