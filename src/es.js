@@ -35,6 +35,7 @@ export const es = {
   BACK_TO_YAPO: 'Volver a Yapo.cl',
   EMAIL: 'E-mail',
   CANCEL: 'Cancelar',
+  CONTINUE: 'Continuar',
   CONTINUE_PURCHASE: 'Continuar compra',
   COMPLETE_NAME: 'Nombre Completo',
   COMPLETE_DATA: 'Completar datos',
