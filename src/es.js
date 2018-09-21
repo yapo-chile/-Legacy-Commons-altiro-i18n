@@ -29,6 +29,7 @@ export const es = {
   ADDED_TO_FAVORITES: 'Agregado a favoritos:',
   ADDRESS: 'Dirección',
   AD_TITLE: 'Título del aviso',
+  BUY: 'Comprar',
   BUY_AND_PAY_SECURE: 'Compra y vende de forma segura sin moverte de tu casa.',
   BUY_PRODUCT: 'Compra el producto',
   BUY_PRODUCT_EXPLAIN: 'Ingresa tus datos de contacto y domicilio requeridos para la entrega del producto. Realiza tu pago online.',
