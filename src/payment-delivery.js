@@ -8,7 +8,7 @@ const DICTIONARY = {
   CONFIRM_REJECT_QUESTION: '¿Estás seguro de que quieres rechazar esta venta?',
   DELIVERY_ADDRESS: 'Dirección de entrega',
   HOW_TO_USE: 'Para empezar necesitamos que completes la información relacionada al envío del producto. Recuerda que el precio que ingreses debe haber sido acordado previamente con el vendedor, para no recibir cargos de devolución.',
-  LET_US_KNOW: 'Nos interesa saber cual es la razón por la cual quieres rechazar la compra del producto. Selecciona cual de las siguientes razones fue la que te hizo rechazar el producto',
+  LET_US_KNOW_RECEPTION: 'Nos interesa saber cual es la razón por la cual quieres rechazar la compra del producto. Selecciona cual de las siguientes razones fue la que te hizo rechazar el producto',
   LET_US_KNOW_REJECT: 'Nos interesa saber cuál es la razón por la que quiere rechazar la venta de este producto. Por favor, selecciona cuál de los siguientes motivos fue el que te hizo rechazar la venta',
   READY_TO_USE: '¿Listo para utilizar Lemonpay?',
   MORE_INFO_ABOUT_PD: 'Más información sobre Pago y despacho',
