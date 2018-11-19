@@ -1,6 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import RECURRING_PAYMENT from './recurring-payment';
 import PAYMENT_DELIVERY from './payment-delivery';
+import MESSAGING_CENTER from './messaging-center';
 import YAPO from './yapo';
 
 export const es = {
@@ -189,6 +190,7 @@ export const es = {
       APPROVED_CREDIT: 'Tienes crédito aprobado',
     },
   },
+  MESSAGING_CENTER,
   RECURRING_PAYMENT,
   PAYMENT_DELIVERY,
   YAPO,
