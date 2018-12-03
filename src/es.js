@@ -2,6 +2,7 @@
 import RECURRING_PAYMENT from './recurring-payment';
 import PAYMENT_DELIVERY from './payment-delivery';
 import MESSAGING_CENTER from './messaging-center';
+import YAPO_HEADER from './yapo-header';
 import YAPO from './yapo';
 
 export const es = {
@@ -195,4 +196,5 @@ export const es = {
   RECURRING_PAYMENT,
   PAYMENT_DELIVERY,
   YAPO,
+  YAPO_HEADER,
 };
