@@ -24,6 +24,7 @@ const DICTIONARY = {
   SUCCESSFUL_BUY_TITLE: 'Tu pago se realizó exitosamente',
   SUCCESSFUL_BUY_SUBTITLE: 'Dentro de 48 horas el vendedor aceptará o rechazará tu compra según su disponibilidad.',
   SUCCESSFUL_BUY_CONTENT: 'Mientras tanto, guardaremos tu dinero en un depósito seguro y no lo transferiremos al vendedor hasta que compruebes que el producto recibido corresponde a lo acordado previamente.',
+  PLUS_SERVICE_COST: '+ costos de servicio',
   POST_EVAL_POSITIVE_TITLE: '¡Gracias por utilizar Pago y Despacho!',
   POST_EVAL_POSITIVE_SUBTITLE: 'Gracias por confiar en Yapo.cl para hacer un buen negocio, miles de personas ya están comprando y vendiendo.',
   POST_EVAL_POSITIVE_BUTTON: 'Ver avisos',
