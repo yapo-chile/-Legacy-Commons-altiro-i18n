@@ -46,7 +46,7 @@ export const es = {
   COMMUNES: 'Comunas',
   COMMERCIAL_DETAIL: 'Detalle comercial',
   DELIVERY_TERMS: 'Plazos de entrega',
-  DELIVERY_TERMS_EXPLAIN: 'Una vez aceptada la compra y retirado el producto, la entrega se realizará dentro de 2 días hábiles.',
+  DELIVERY_TERMS_EXPLAIN: 'Una vez aceptada la compra y retirado el producto, la entrega se realizará dentro de los próximos días.',
   DOWNLOAD_APP_MOVIL_YAPO_HERE: 'Descarga la App de Yapo aquí',
   DNI: 'RUT',
   FASTER_SALES: 'Ventas más rápidas',
