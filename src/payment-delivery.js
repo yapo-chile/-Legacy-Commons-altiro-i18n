@@ -60,7 +60,7 @@ const DICTIONARY = {
   THERE_IS_ANY_PROBLEM_RECEPTION: '¿Hubo algún problema con tu compra?',
   THERE_IS_ANY_PROBLEM_REJECT: '¿Hubo algún problema con la venta?',
   TO_YOUR_DOOR: 'A la puerta de tu casa',
-  WE_CARE_OF_PICKUP: 'Nos encargamos de retirar el producto y entregartelo en la dirección que más te acomode.',
+  WE_CARE_OF_PICKUP: 'Nos encargamos de retirar el producto y entregártelo en la dirección que más te acomode.',
 };
 
 export default DICTIONARY;
