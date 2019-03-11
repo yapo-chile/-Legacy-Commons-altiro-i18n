@@ -56,7 +56,7 @@ const DICTIONARY = {
   POST_ACCEPT_BUY_TITLE: '¡Gracias por utilizar Pago y Despacho!',
   POST_ACCEPT_BUY_SUBTITLE: 'Tu producto será retirado al siguiente día hábil entre las 12:00 y 19:00 horas. Por favor, envuélvelo de tal forma de que quede seguro, tal como a ti te gustaría recibirlo.',
   POST_ACCEPT_BUY_BUTTON: 'Ver avisos',
-  COMMISION_INFO: 'comisión de servicio correspodiente a un {commission}% del valor del producto.',
+  COMMISION_INFO: 'comisión de servicio correspondiente a un {commission}% del valor del producto.',
   THERE_IS_ANY_PROBLEM_RECEPTION: '¿Hubo algún problema con tu compra?',
   THERE_IS_ANY_PROBLEM_REJECT: '¿Hubo algún problema con la venta?',
   TO_YOUR_DOOR: 'A la puerta de tu casa',
