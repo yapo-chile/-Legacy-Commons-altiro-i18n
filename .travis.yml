@@ -3,3 +3,8 @@ node_js:
   - "node"
   - "7"
   - "6"
+after_success:
+  - echo "$TRAVIS_BRANCH"
+  - echo "$TRAVIS_TAG"
+  - echo "$TRAVIS_PULL_REQUEST"
+  - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then yarn publish; fi
