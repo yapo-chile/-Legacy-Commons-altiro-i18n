@@ -148,6 +148,7 @@ export const es = {
     SELECT_BANK: 'Selecciona banco.',
     SELECT_COMMUNE: 'Selecciona una comuna.',
     SELECT_REGION: 'Selecciona una región.',
+    SELECT_YOUR_REGION: 'Selecciona tu región.',
   },
   BUILDERS: {
     PUBLISHED_AT: 'Publicado',
