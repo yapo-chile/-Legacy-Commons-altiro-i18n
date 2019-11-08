@@ -75,6 +75,7 @@ export const es = {
   PAY_AND_RECEPTION: 'Pago y recepción',
   PAY_AND_RECEPTION_EXPLAIN:
     'Tu pago será retenido hasta que al recibir el producto te asegures que está en las condiciones prometidas.',
+  PAYMENT_DELIVERY_CAPITAL: 'Pago y Despacho',
   PAYMENT_DELIVERY_ADVANTAGE: 'Ventajas de Pago y despacho',
   PAYMENT_DELIVERY_ADVANTAGE_MIN: 'Ventajas de pago y despacho',
   PAYMENT_DELIVERY_INFO:
