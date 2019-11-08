@@ -3,6 +3,7 @@ import RECURRING_PAYMENT from './recurring-payment';
 import PAYMENT_DELIVERY from './payment-delivery';
 import MESSAGING_CENTER from './messaging-center';
 import YAPO_HEADER from './yapo-header';
+import YAPO_PAY from './yapo-pay';
 import YAPO from './yapo';
 
 export const es = {
@@ -148,7 +149,6 @@ export const es = {
     SELECT_BANK: 'Selecciona banco.',
     SELECT_COMMUNE: 'Selecciona una comuna.',
     SELECT_REGION: 'Selecciona una región.',
-    SELECT_YOUR_REGION: 'Selecciona tu región.',
   },
   BUILDERS: {
     PUBLISHED_AT: 'Publicado',
@@ -230,4 +230,5 @@ export const es = {
   PAYMENT_DELIVERY,
   YAPO,
   YAPO_HEADER,
+  YAPO_PAY,
 };
