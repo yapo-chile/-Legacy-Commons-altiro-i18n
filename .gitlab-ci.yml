@@ -1,0 +1,10 @@
+include:
+  - project: 'yapo_team/yotf/sre-team/sre-services/ci-templates/node-pipeline-template'
+    ref: main
+    file: 'gitlab-ci.yml'
+
+stages:
+  - dependencies
+  - test
+  - build
+  - deploy

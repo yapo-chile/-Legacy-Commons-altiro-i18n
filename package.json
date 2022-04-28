@@ -25,9 +25,9 @@
   "author": "Claudio Donoso",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.schibsted.io/Yapo/altiro-i18n/issues"
+    "url": "https://gitlab.com/yapo_team/legacy/commons/altiro-i18n/issues"
   },
-  "homepage": "https://github.schibsted.io/Yapo/altiro-i18n",
+  "homepage": "https://gitlab.com/yapo_team/legacy/commons/altiro-i18n",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
